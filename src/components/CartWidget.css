@@ -1,0 +1,16 @@
+.offcanvas-header {
+  background-color: #eeeeee;
+  font-family: "Raleway";
+}
+
+.containerCarrito svg {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}

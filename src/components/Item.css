@@ -1,0 +1,32 @@
+.card {
+  width: 375px;
+  height: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 375px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text-anchor,
+.card-text-anchor:hover,
+.card-text-anchor:visited,
+.card-text-anchor:focus,
+.card-text-anchor:active {
+  margin-bottom: 5px;
+  font-weight: 600;
+
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  cursor: hand;
+}
