@@ -1,11 +1,11 @@
-import tapadoPaño from "../images/griferia-augusta.jpg";
-import griferiaAromo from "../images/aromo.jpg";
-import ecowood from "../images/porcelanato-ecowood.jpeg";
-import evolution from "../images/porcelanato-evolution.jpg";
-import subwayBlanco from "../images/revestimiento-subway-blanco.jpg";
-import subwayNegro from "../images/revestimiento-subway-negro.jpg";
-import mesadaBlanca from "../images/mesada-blanca.jpg";
-import mesadaNegra from "../images/mesada-negra.jpg";
+import tapadoPaño from "../images/augusta.jpg";
+import Aromo from "../images/aromo.jpg";
+import ecowood from "../images/ecowood.jpeg";
+import sweet from "../images/sweet.jpg";
+import subway from "../images/subway.jpg";
+import subwayJean from "../images/subwayjean.jpg";
+import legginsCuore from "../images/legginscuore.jpg";
+import legginsTebas from "../images/legginstebas.jpg";
 
 export const listadoProductos = [
   {
@@ -23,7 +23,7 @@ export const listadoProductos = [
     title: "AROMO PINK",
     description: "100% lana 100% suavidad",
     price: 8000,
-    picture: griferiaAromo,
+    picture: Aromo,
     stock: 10,
     category: "tapados",
   },
@@ -43,7 +43,7 @@ export const listadoProductos = [
     description:
       "prenda infaltable para este invierno, largo de 70cm ",
     price: 10600,
-    picture: evolution,
+    picture: sweet,
     stock: 10,
     category: "sweaters",
   },
@@ -52,7 +52,7 @@ export const listadoProductos = [
     title: "SUBWAY BLACK",
     description: "babucha artesanal",
     price: 5000,
-    picture: subwayBlanco,
+    picture: subway,
     stock: 10,
     category: "pantalones",
   },
@@ -61,7 +61,7 @@ export const listadoProductos = [
     title: "SUBWAY JEAN",
     description: "jean elastizados, todos los talles.",
     price: 7000,
-    picture: subwayNegro,
+    picture: subwayJean,
     stock: 10,
     category: "pantalones",
   },
@@ -70,8 +70,8 @@ export const listadoProductos = [
     title: "LEGGINS CUORE",
     description:
       "una prenda que viste con todo.",
-    price: 50000,
-    picture: mesadaBlanca,
+    price: 5000,
+    picture: legginsCuore,
     stock: 10,
     category: "leggins",
   },
@@ -80,8 +80,8 @@ export const listadoProductos = [
     title: "LEGGINS TEBAS",
     description:
       "Un clásico que nunca falla.",
-    price: 45000,
-    picture: mesadaNegra,
+    price: 7500,
+    picture: legginsTebas,
     stock: 10,
     category: "leggins",
   },

@@ -2,8 +2,15 @@ import React, { useState, useEffect } from "react";
 import Item from "./Item";
 import "./Item.css";
 import { listadoProductos } from "./listado";
+import {doc, getDoc, getFirestore} from "firebase/firestore"
 
 function ItemList() {
+
+  //kBrWABcO04GteI8v3ydp
+  //images
+
+  const db = getFirestore();
+  
   const [products, setProducts] = useState([]);
 
   const getProducts = () => {

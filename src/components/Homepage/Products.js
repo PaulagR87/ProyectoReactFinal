@@ -1,8 +1,8 @@
 import React from "react";
-import image1 from "../../images/porcelanato.jpg";
-import image2 from "../../images/revestimiento.jpg";
-import image3 from "../../images/griferia.jpg";
-import image4 from "../../images/mesadas.jpg";
+import image1 from "../../images/tapados.jpg";
+import image2 from "../../images/leggins.jpg";
+import image3 from "../../images/sweater.jpg";
+import image4 from "../../images/pantalones.jpg";
 import { Link } from "react-router-dom";
 
 function Products() {
